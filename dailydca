@@ -1,0 +1,304 @@
+278.78USD−1.92−0.68%
+
+Apple, Inc. engages in the design, manufacture, and sale of smartphones, personal computers, tablets, wearables and accessories, and other varieties of related services. It operates through the following geographical segments: Americas, Europe, Greater China, Japan, and Rest of Asia Pacific. The Americas segment includes North and South America. The Europe segment consists of European countries, as well as India, the Middle East, and Africa. The Greater China segment comprises China, Hong Kong, and Taiwan. The Rest of Asia Pacific segment includes Australia and Asian countries. Its products and services include iPhone, Mac, iPad, AirPods, Apple TV, Apple Watch, Beats products, AppleCare, iCloud, digital content stores, streaming, and licensing services. The company was founded by Steven Paul Jobs, Ronald Gerald Wayne, and Stephen G. Wozniak in April 1976 and is headquartered in Cupertino, CA.
+avatar
+oojeson
+Joined Aug 13, 2018
+IdeasMindsScripts
+Indicators and strategies
+Annual Lump Sum: Yearly & Compounded
+Annual Lump Sum Investment Analyzer (Yearly vs. Compounded) Overview This Pine Script indicator simulates a disciplined "Lump Sum" investing strategy. It calculates the performance of buying a fixed dollar amount (e.g., $10,000) on the very first trading day of every year and holding it indefinitely. Unlike standard backtesters that only show a total percentage, this tool breaks down performance by "Vintage" (the year of purchase), allowing you to see which specific years contributed most to your wealth. Key Features Automated Execution: Automatically detects the first trading bar of every new year to simulate a buy. Dual-Yield Analysis: The table provides two distinct ways to view returns: Yearly %: How the market performed specifically during that calendar year (Jan 1 to Dec 31). Compounded %: The total return of that specific year's investment from the moment it was bought until today. Live Updates: For the current year, the "End Price" and "Yields" update in real-time with market movements. Portfolio Summary: Displays your Total Invested Capital vs. Total Current Value at the top of the table. Table Column Breakdown The dashboard in the bottom-right corner displays the following: Year: The vintage year of the investment. Buy Price: The price of the asset on the first trading day of that year. End Price: The price on the last trading day of that year (or the current price if the year is still active). Yearly %: The isolated performance of that specific calendar year. (Green = The market ended the year higher than it started). Compounded %: The "Diamond Hands" return. This shows how much that specific $10,000 tranche is up (or down) right now relative to the current price. How to Use Add the script to your chart. Crucial: Set your chart timeframe to Daily (D). This ensures the script correctly identifies the first trading day of the year. Open the Settings (Inputs) to adjust: Annual Investment Amount: Default is $10,000. Table Size: Adjust text size (Tiny, Small, Normal, Large). Max Rows: Limit how many historical years are shown to keep the chart clean. Use Case This tool is perfect for investors who want to visualize the power of long-term holding. It allows you to see that even if a specific year had a bad "Yearly Yield" (e.g., buying in 2008), the "Compounded Yield" might still be massive today due to time in the market.
+by oojeson
+Dec 6
+Daily Dollar Cost Averaging (DCA) Simulator & Yearly Performance
+This indicator simulates a "Daily Dollar Cost Averaging" strategy directly on your chart. Unlike standard backtesters that trade based on signals, this script calculates the performance of a portfolio where a fixed dollar amount is invested every single day, regardless of price action. Key Features: Daily Accumulation: Simulates buying a specific dollar amount (e.g., $10) at the market close every day. Yearly Breakdown Table: A detailed dashboard displayed on the chart that breaks down performance by year. It tracks total invested, average entry price, total holdings, current value, and PnL percentage for each individual year. Global Stats: The bottom row of the table summarizes the total performance of the entire strategy since the start date. Breakeven Line: Plots a yellow line on the chart representing your "Global Average Price." When the current price is above this line, the total strategy is in profit. How to Use: Add to chart (Works best on the Daily (D) timeframe). Open settings to adjust your Daily Investment Amount and Start Year. The table will automatically update to show how a daily investment strategy would have performed over time.
+by oojeson
+Dec 6
+Monthly DCA & Last 10 Years
+This Pine Script indicator simulates a Monthly Dollar Cost Averaging (DCA) strategy to help long-term investors visualize historical performance. Instead of complex timing, the script automatically executes a hypothetical fixed-dollar purchase (e.g., $100) on the first trading day of every month. It visually marks entry points with green "B" labels and plots a dynamic yellow line representing your Global Break-Even Price, allowing you to instantly see if the current price is above or below your average cost basis. To provide deep insight, it generates a detailed performance table in the bottom-right corner that breaks down metrics year-by-year—including total capital invested, shares/coins accumulated, and Profit/Loss percentage—along with a grand total summary of the entire investment period.
+by oojeson
+Dec 5
+Weekly DCA & Yearly Table
+This Pine Script indicator simulates a Weekly Dollar Cost Averaging (DCA) strategy directly on your TradingView chart. It automatically calculates a hypothetical portfolio where a fixed dollar amount (default $100) is invested every Friday (or the last trading day of the week) starting from a user-defined year. Visually, it marks every purchase with a green "B" label and plots a yellow line representing your Global Break-Even Price, allowing you to see exactly where your average entry lies relative to current price action. To track performance, it generates a detailed table in the bottom-right corner that breaks down your investment year-by-year, showing total capital invested, "coins" or shares accumulated, average buy price per year, current value, and profit/loss percentage, along with a grand total summary for the entire period.
+by oojeson
+Dec 5
+
+Select market data provided by ICE Data Services. Select reference data provided by FactSet. Copyright © 2025 FactSet Research Systems Inc.Copyright © 2025, American Bankers Association. CUSIP Database provided by FactSet Research Systems Inc. All rights reserved. SEC fillings and other documents provided by Quartr.© 2025 TradingView, Inc.
+More than a product
+
+    Supercharts
+
+Screeners
+
+    Stocks
+    ETFs
+    Bonds
+    Crypto coins
+    CEX pairs
+    DEX pairs
+    Pine
+
+Heatmaps
+
+    Stocks
+    ETFs
+    Crypto
+
+Calendars
+
+    Economic
+    Earnings
+    Dividends
+
+More products
+
+    Yield Curves
+    Options
+    News Flow
+    Pine Script®
+
+Apps
+
+    Mobile
+    Desktop
+
+Tools & subscriptions
+
+    Features
+    Pricing
+    Market data
+    Gift plans
+
+Trading
+
+    Overview
+    Brokers
+
+Special offers
+
+    CME Group futures
+    Eurex futures
+    US stocks bundle
+
+About company
+
+    Who we are
+    Space mission
+    Blog
+    Careers
+    Media kit
+
+Merch
+
+    TradingView store
+    Tarot cards for traders
+    The C63 TradeTime
+
+Policies & security
+
+    Terms of Use
+    Disclaimer
+    Privacy Policy
+    Cookies Policy
+    Accessibility Statement
+    Security tips
+    Bug Bounty program
+    Status page
+
+Community
+
+    Social network
+    Wall of Love
+    Refer a friend
+    House Rules
+    Moderators
+
+Ideas
+
+    Trading
+    Education
+    Editors' picks
+
+Pine Script
+
+    Indicators & strategies
+    Wizards
+    Freelancers
+
+Business solutions
+
+    Widgets
+    Charting libraries
+    Lightweight Charts™
+    Advanced Charts
+    Trading Platform
+
+Growth opportunities
+
+    Advertising
+    Brokerage integration
+    Partner program
+    Education program
+
+Look First
+Pine Script® indicator
+
+2 days ago
+Daily Dollar Cost Averaging (DCA) Simulator & Yearly Performance
+Pine Script®
+// This Pine Script® code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © oojeson
+
+//
+//This Pine Script indicator simulates a DAILY Dollar Cost Averaging (DCA) strategy.
+//It automatically calculates a hypothetical portfolio where a fixed dollar amount 
+//is invested every single day.
+
+
+//@version=5
+indicator("Daily DCA & Yearly Table", overlay=true, max_lines_count=500, max_labels_count=500)
+
+// --- Inputs ---
+i_investAmount = input.float(10.0, "Daily Investment ($)", minval=1.0)
+i_startYear    = input.int(2020, "Start Year", minval=1900) // Defaulted to 2020 for better visibility
+i_tablePos     = input.string(position.bottom_right, "Table Position", options=[position.top_right, position.bottom_right, position.top_left, position.bottom_left])
+
+// --- Variables to track Global Portfolio ---
+var float total_invested = 0.0
+var float total_coins    = 0.0
+var float avg_price      = 0.0
+
+// --- Variables to track Yearly Data (using Arrays) ---
+var int[]   year_list       = array.new_int(0)
+var float[] year_invested   = array.new_float(0)
+var float[] year_coins      = array.new_float(0)
+
+// --- Logic to Determine Buy Timing (DAILY) ---
+
+// 1. Detect the start of a new day
+// ta.change(time("D")) returns true if the current bar's day is different from the previous bar
+is_new_day = ta.change(time("D"))
+
+// 2. Logic for different timeframes:
+// If on Daily chart (1D), every bar is a buy.
+// If on Intraday (1H, 4H), only buy on the first bar of the day.
+// If on Weekly/Monthly, it will buy once per bar (effectively Weekly/Monthly DCA).
+is_buy_day = timeframe.isdaily ? true : is_new_day
+
+// Only process if within the date range
+bool date_allowed = year >= i_startYear
+
+// --- Main Execution Loop ---
+if is_buy_day and date_allowed and barstate.isconfirmed
+    // 1. Update Global Stats
+    float coins_bought = i_investAmount / close
+    total_invested    := total_invested + i_investAmount
+    total_coins       := total_coins + coins_bought
+    avg_price         := total_invested / total_coins
+    
+    // 2. Update Yearly Stats
+    int current_year = year(time)
+    
+    // Check if this year exists in our array yet
+    int y_index = -1
+    if array.size(year_list) > 0
+        // Look for the year
+        for i = 0 to array.size(year_list) - 1
+            if array.get(year_list, i) == current_year
+                y_index := i
+                break
+    
+    // If year not found, add new entry
+    if y_index == -1
+        array.push(year_list, current_year)
+        array.push(year_invested, 0.0)
+        array.push(year_coins, 0.0)
+        y_index := array.size(year_list) - 1
+    
+    // Add data to the specific year index
+    float current_y_inv   = array.get(year_invested, y_index)
+    float current_y_coins = array.get(year_coins, y_index)
+    
+    array.set(year_invested, y_index, current_y_inv + i_investAmount)
+    array.set(year_coins, y_index, current_y_coins + coins_bought)
+
+    // Note: Removed label.new("B") to prevent hitting max_label_count limits 
+    // and cluttering the chart with thousands of daily labels.
+
+// --- Plotting Global Average Price ---
+plot(total_invested > 0 ? avg_price : na, "Global Breakeven Price", color=color.yellow, linewidth=2)
+
+// --- Table Generation (Render only on last bar) ---
+var table dcaTable = table.new(i_tablePos, 6, 20, border_width=1)
+
+if barstate.islast
+    // Header Row
+    table.cell(dcaTable, 0, 0, "Year", bgcolor=color.gray, text_color=color.white)
+    table.cell(dcaTable, 1, 0, "Invested", bgcolor=color.gray, text_color=color.white)
+    table.cell(dcaTable, 2, 0, "Avg Price", bgcolor=color.gray, text_color=color.white)
+    table.cell(dcaTable, 3, 0, "Coins", bgcolor=color.gray, text_color=color.white)
+    table.cell(dcaTable, 4, 0, "Cur Value", bgcolor=color.gray, text_color=color.white)
+    table.cell(dcaTable, 5, 0, "PnL %", bgcolor=color.gray, text_color=color.white)
+    
+    float grand_total_val = 0.0
+    
+    // Loop through years and fill rows
+    if array.size(year_list) > 0
+        for i = 0 to array.size(year_list) - 1
+            int   y_val      = array.get(year_list, i)
+            float y_inv      = array.get(year_invested, i)
+            float y_amt      = array.get(year_coins, i)
+            float y_avg      = y_inv / y_amt
+            float y_cur_val  = y_amt * close
+            float y_pnl      = ((y_cur_val - y_inv) / y_inv) * 100
+            
+            grand_total_val := grand_total_val + y_cur_val
+            
+            // Color logic for PnL
+            color pnl_color = y_pnl >= 0 ? color.new(color.green, 60) : color.new(color.red, 60)
+            
+            table.cell(dcaTable, 0, i + 1, str.tostring(y_val), text_color=color.white, bgcolor=color.new(color.gray, 80))
+            table.cell(dcaTable, 1, i + 1, "$" + str.tostring(y_inv, "#.##"), text_color=color.white, bgcolor=color.new(color.gray, 90))
+            table.cell(dcaTable, 2, i + 1, str.tostring(y_avg, "#.##"), text_color=color.white, bgcolor=color.new(color.gray, 90))
+            table.cell(dcaTable, 3, i + 1, str.tostring(y_amt, "#.###"), text_color=color.white, bgcolor=color.new(color.gray, 90))
+            table.cell(dcaTable, 4, i + 1, "$" + str.tostring(y_cur_val, "#.##"), text_color=color.white, bgcolor=pnl_color)
+            table.cell(dcaTable, 5, i + 1, str.tostring(y_pnl, "#.##") + "%", text_color=color.white, bgcolor=pnl_color)
+
+    // Total Summary Row
+    int last_row = array.size(year_list) + 1
+    float total_pnl_pct = total_invested > 0 ? ((grand_total_val - total_invested) / total_invested) * 100 : 0.0
+    color total_color = total_pnl_pct >= 0 ? color.green : color.red
+    
+    table.cell(dcaTable, 0, last_row, "TOTAL", bgcolor=total_color, text_color=color.white)
+    table.cell(dcaTable, 1, last_row, "$" + str.tostring(total_invested, "#.##"), bgcolor=total_color, text_color=color.white)
+    table.cell(dcaTable, 2, last_row, str.tostring(avg_price, "#.##"), bgcolor=total_color, text_color=color.white)
+    table.cell(dcaTable, 3, last_row, str.tostring(total_coins, "#.###"), bgcolor=total_color, text_color=color.white)
+    table.cell(dcaTable, 4, last_row, "$" + str.tostring(grand_total_val, "#.##"), bgcolor=total_color, text_color=color.white)
+    table.cell(dcaTable, 5, last_row, str.tostring(total_pnl_pct, "#.##") + "%", bgcolor=total_color, text_color=color.white)
+82
+This indicator simulates a "Daily Dollar Cost Averaging" strategy directly on your chart. Unlike standard backtesters that trade based on signals, this script calculates the performance of a portfolio where a fixed dollar amount is invested every single day, regardless of price action.
+
+Key Features:
+
+Daily Accumulation: Simulates buying a specific dollar amount (e.g., $10) at the market close every day.
+
+Yearly Breakdown Table: A detailed dashboard displayed on the chart that breaks down performance by year. It tracks total invested, average entry price, total holdings, current value, and PnL percentage for each individual year.
+
+Global Stats: The bottom row of the table summarizes the total performance of the entire strategy since the start date.
+
+Breakeven Line: Plots a yellow line on the chart representing your "Global Average Price." When the current price is above this line, the total strategy is in profit.
+
+How to Use:
+
+Add to chart (Works best on the Daily (D) timeframe).
+
+Open settings to adjust your Daily Investment Amount and Start Year.
+
+The table will automatically update to show how a daily investment strategy would have performed over time.
+Open-source script
+
+In true TradingView spirit, the creator of this script has made it open-source, so that traders can review and verify its functionality. Kudos to the author! While you can use it for free, remember that republishing the code is subject to our House Rules.
+oojeson
+Disclaimer
+The information and publications are not meant to be, and do not constitute, financial, investment, trading, or other types of advice or recommendations supplied or endorsed by TradingView. Read more in the Terms of Use.
+
